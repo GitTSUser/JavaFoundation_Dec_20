@@ -1,0 +1,192 @@
+Problem statement:-
+------------------
+-> Develop an application  to accept  country names into a method
+ and count the country names and print the count values in alphabet order.
+
+eg:- String  countries[]={"India","Koria","USA","USSR","Koria","India"};
+
+output:-   
+              India - 2
+              Koria - 2
+              USA   - 1
+              USSR  - 1
+
+
+Problem statement:-
+-----------------
+-> develop an application to accept N employee names into a method    and interchange the first and last letter in each name and return     the names as an array.
+
+for eg:-    String  names[]={"arun","thaman","charan","karan"};
+
+
+   output:-    nrua
+               nhamat
+               nharac
+               narak
+
+Problem statement:-
+-----------------
+-> develop an application to accept N no.of projects into a method    and reverse middle letters in each project name (Leave the  first and last letter as they are) and return the projects as an array.
+
+for eg:-    String  projects[]={"BCMIS","DMCIK","PSTIM","VCIST"};
+
+
+   output:-    
+		BIMCS
+		DICMK
+		PITSM
+		VSICT
+
+
+
+Two types of Methods:-
+--------------------
+
+a) static  methods
+
+b) non-static  methods  (or) instance methods
+
+a) static methods:-  
+-------------------
+-> class level  methods and not instance level methods.
+-> static methods can be invoked by class name.
+-> static method will have "static" keyword in method prototype.
+eg:-  static  void  add(int a,int b);
+     static   void  findEmploySalary(int employId);
+
+b) non-static methods:-
+----------------------
+-> non-static methods are instance level methods.
+-> non-static methods can be invoked by instance/object name.
+-> non-static method will not have "static" keyword.
+eg:- 
+     void  add(int a,int b);
+     void  findEmploySalary(int employId);
+
+Problem Statement:-
+------------------
+-> Develop an application to find the bill amounts for the units consumed by N no.of homes in a housing colony. And the consumption
+ rules are given as follows: (pass N units to a method and it returns
+                                billAmounts array)
+ a) 1>units<40  : per unit price is 2
+ b) 40>units<60 : per unit price is 2.50 and 
+			between 40 to 60 3 per unit
+
+ c) 60>units<80 : per unit price is 3 and 
+			between 40 to 60 :: 4 per unit
+   			next 60 to 80 :: 5 per unit
+
+ d) 80>units<100 : per unit price is 4 and 
+			between 40 to 60:: 5 per unit 
+			next 60 to 80 :: 6 per unit
+			next 80 to 100 :: 7 per unit
+ e) 100>units	: per unit price is 8 
+
+OOP concepts:-
+-------------
+-> OOP is a paradigm  for performing operations by and through the objects.
+
+-> There are powerful OOP concepts:
+
+   a) class
+   b) object
+   c) abstraction
+   d) encapsulation
+   f) inheritance
+   g) polymorphism
+
+a) Class:-
+----------
+-> class is a plan or blueprint  or model or template for making objects.
+-> class is a logical entity and is created on class memory.
+
+syntax:-     class   <classname>{
+		//properties  or variables
+
+		//behaviors  or  methods
+	     }
+
+b) Object:-
+----------
+-> an object is an instance of a class and created from class.
+-> an object is physical and logical entity and is created on heap memory.
+
+syntax:-      classname  objectname=new classname();
+
+-> an object has state and behaviors.
+
+
+ dog --> properties:: name->puppy, breed->lab, legs->4, color-> gold
+
+	  behaviors:: bark(), bite(), jump(),eat(), run(), sleep()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

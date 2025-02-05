@@ -1,0 +1,64 @@
+SpringBoot:-
+----------
+->SpringBoot is a project developed on top of Spring f/w.
+
+->SpringBoot was developed to improve the speed of spring Application development.
+
+->SpringBoot will be used for RAD (Rapid App Development)
+
+-> SpringBoot will reduce the project setup and configuration times.
+
+-> SpringBoot avoids xml configurations and does auto configuration.
+
+-> SpringBoot follows "Convention over Configuration".
+
+-> SpringBoot does all the background work for your project setup.
+
+SpringBoot components:-
+----------------------
+-> Starters
+	eg:-	spring-boot-parent-starter
+		spring-boot-web-starter
+		spring-boot-jpa-starter
+
+-> Embeded server
+	eg:=	apache tomcat, jetty
+
+-> Production-ready features, by Actuators
+-> Auto-configurator
+-> Spring-Boot CLI
+-> Spring-Boot IDE (STS)
+-> Spring-Boot Initilizr
+
+
+
+Creation of SpringBoot project:-
+------------------------------
+1. using STS IDE
+2. using Spring Initilizr
+
+
+
+profile:-
+--------
+-> profile is used to create a separate setup configurations of a spring boot application for running on diff environments/machines like dev,testing,production, uat etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
